@@ -38,6 +38,8 @@ cp .env.example .env
 
 ```bash
 uvicorn app.main:app --reload
+# or
+python run.py
 ```
 
 The server starts at `http://localhost:8000`.  
